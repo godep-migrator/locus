@@ -1,7 +1,11 @@
 {{define "content"}}
 <form method="post">
-	<textarea type="text" name="polygon-wkt" placeholder="Your polygon as well-known text"></textarea>
-	<textarea type="text" name="point-wkt" placeholder="Your point as X, Y coordinates"></textarea>
-	<button type="submit">Check</button>
+	<input type="text" id="point-x" name="point-x" placeholder="X coordinate" />
+	<br/>
+	<input type="text" id="point-y" name="point-y" placeholder="Y coordinate" />
+	<br/>
+	<textarea name="polygon-wkt" placeholder="Your polygon as well-known text"></textarea>
+	<br/>
+	<input type="submit" class="neon" value="Check"/>
 </form>
 {{end}}
