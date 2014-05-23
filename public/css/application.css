@@ -65,4 +65,5 @@ form textarea {
 #not-found {
 	font-size: 3em;
 	text-shadow: 0 0 2px rgba(255,255,255,0.5);
+	letter-spacing: -1px;
 }
