@@ -1,0 +1,20 @@
+{{define "layout"}}
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>locus | {{.}}</title>
+		<meta charset="utf-8">
+		<link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700' />
+		<link rel="stylesheet" href="/css/application.css" />
+	</head>
+	<body>
+		<div class="main">
+			<h1>l<span class="neon">o</span>cus</h1>
+			<h2>A simple point-in-polygon service.</h2>
+			{{template "content"}}
+		</div>
+		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="/js/application.js"></script>
+	</body>
+</html>
+{{end}}
