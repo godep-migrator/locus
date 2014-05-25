@@ -4,7 +4,6 @@ import (
 	"github.com/go-martini/martini"
 	"github.com/martini-contrib/render"
 	"html/template"
-	"log"
 	"net/http"
 	"os"
 	"time"
