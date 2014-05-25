@@ -7,7 +7,7 @@ This is a tiny little Go web app using Martini and gogeos that purely exists to 
 ## Running
 
 ```
-$ PORT=5000 go run *.go
+$ PORT=5000 go run locus.go
 ```
 
 ## Accessing Programmatically
