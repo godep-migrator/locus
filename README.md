@@ -9,3 +9,9 @@ This is a tiny little Go web app using Martini and gogeos that purely exists to 
 ```
 $ PORT=5000 go run *.go
 ```
+
+## Accessing Programmatically
+
+```
+$ curl -d "point-x=1.0&point-y=1.0&polygon-wkt=MULTIPOLYGON(((0.0 0.0, 2.0 0.0, 2.0 2.0,0.0 2.0, 0.0 0.0)))" -X POST http://localhost:5000/
+```
