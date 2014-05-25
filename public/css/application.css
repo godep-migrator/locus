@@ -20,6 +20,14 @@ html {
 	opacity: 0.5;
 }
 
+#result, #success, #failure {
+	display: none;
+}
+
+#result {
+  margin-top: 75px;
+}
+
 .neon {
 	color: #fff;
 	text-shadow: 0 0 5px #fff,
@@ -98,7 +106,7 @@ form textarea {
 	padding: 10px;
 }
 
-form input[type="submit"] {
+form input[type="submit"], a#reload {
 	border: none;
 	font-size: 1.2em;
 	margin-top: 10px;
@@ -106,12 +114,13 @@ form input[type="submit"] {
 	background-color: transparent;
 	opacity: 0.7;
 	transition: opacity 0.5s ease-in-out;
+	text-decoration: none;
 }
 
-form input[type="submit"]:hover, form input[type="submit"]:focus {
+form input[type="submit"]:hover, form input[type="submit"]:focus, a#reload:hover {
 	opacity: 1.0;
 }
 
-form input[type="text"]:focus, form textarea:focus{
+form input[type="text"]:focus, form textarea:focus, a#reload:focus {
 	box-shadow: 0 0 10px #ff00de;
 }
