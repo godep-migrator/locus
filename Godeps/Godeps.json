@@ -1,5 +1,5 @@
 {
-	"ImportPath": "locus",
+	"ImportPath": "github.com/anachronistic/locus",
 	"GoVersion": "go1.2",
 	"Deps": [
 		{
@@ -14,6 +14,11 @@
 		{
 			"ImportPath": "github.com/martini-contrib/render",
 			"Rev": "7b617783357fec5b5a6d4ecac82e747e4a14d1b5"
+		},
+		{
+			"ImportPath": "github.com/paulsmith/gogeos/geos",
+			"Comment": "v0.1.2",
+			"Rev": "21f81b2ea5af44d3f6029cc3e5bbbd26b2425236"
 		}
 	]
 }
